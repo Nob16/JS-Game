@@ -1,4 +1,16 @@
 html, body {
   height: 100%;
   width: 100%;
+  background-image: url(farm.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+#title {
+  position: absolute;
+  text-align: center;
+  top: 30%;
+  left: 42%;
+  font-size: 30px;
 }
