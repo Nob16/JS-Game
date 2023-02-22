@@ -1,16 +1,26 @@
 html, body {
   height: 100%;
   width: 100%;
-  background-image: url(farm.jpg);
+  background-image: url(Animal\ Hospital.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   overflow: hidden;
+  position: absolute;
 }
 
 #title {
   position: absolute;
   text-align: center;
-  top: 30%;
-  left: 42%;
+  top: 15%;
+  left: 35%;
   font-size: 30px;
+  border: double 5px;
+  padding: 0px 20px 0px 20px;
+  background-color: rgba(160, 160, 160, 0.9);
+}
+
+#start {
+  position: absolute;
+  width: 200px; 
+  height: 200px;
 }
